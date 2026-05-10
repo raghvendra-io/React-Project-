@@ -1,7 +1,9 @@
 function App() {
   return (
-    <div>
-      <h1>Hello React 🚀</h1>
+    <div className="h-screen flex items-center justify-center bg-black">
+      <h1 className="text-5xl font-bold text-green-400 ">
+        React Project 🚀
+      </h1>
     </div>
   );
 }
