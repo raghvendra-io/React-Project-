@@ -1,9 +1,17 @@
+import Sidebar from "./components/Sidebar";
+import Header from "./components/Header";
+
+import "./App.css";
+
 function App() {
   return (
-    <div className="h-screen flex items-center justify-center bg-black">
-      <h1 className="text-5xl font-bold text-green-400 ">
-        React Project 🚀
-      </h1>
+    <div className="app">
+      
+      <Sidebar />
+
+      <div className="main-content">
+        <Header />
+      </div>
     </div>
   );
 }
